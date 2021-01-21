@@ -1,4 +1,9 @@
-console.log('This is a test');
+window.onload = function () {
+  document
+    .getElementById('shuffleButton')
+    .addEventListener('click', shuffleCards);
+  document.getElementById('sortButton').addEventListener('click', sortCards);
+};
 
 const shuffleCards = () => {
   let cardContainer = document.getElementById('cardsGoHere');
