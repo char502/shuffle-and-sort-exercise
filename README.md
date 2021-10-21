@@ -1,4 +1,4 @@
-# Shuffle and Sort app
+# Shuffle and Sort app using vanilla JavaScript
 
 ## An app that shuffles and sorts numbered cards at the click of a button
 
